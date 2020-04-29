@@ -99,4 +99,13 @@ public class T05最长回文子串 {
         // 满足条件时 right = 2，left=4，但从循环中结束时，right =1，left=5，此时符合条件的长度为3，left-right-1=3
         return right - left - 1;
     }
+
+    public static void main(String[] args) {
+        System.out.println(longestPalindrome("cabcvcbad"));
+        System.out.println(longestPalindrome("abcvcbad"));
+        System.out.println(longestPalindrome("a"));
+        System.out.println(longestPalindrome("abcba"));
+        System.out.println(longestPalindrome("caba"));
+        System.out.println(longestPalindrome("abacdfgdcaba"));
+    }
 }
