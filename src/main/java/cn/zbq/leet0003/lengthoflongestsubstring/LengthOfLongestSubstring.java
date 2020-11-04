@@ -1,4 +1,4 @@
-package cn.zbq.leet003.lengthoflongestsubstring;
+package cn.zbq.leet0003.lengthoflongestsubstring;
 
 import java.util.HashMap;
 import java.util.HashSet;

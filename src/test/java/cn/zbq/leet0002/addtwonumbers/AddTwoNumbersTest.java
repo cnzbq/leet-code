@@ -1,4 +1,4 @@
-package cn.zbq.leet002.addtwonumbers;
+package cn.zbq.leet0002.addtwonumbers;
 
 import org.junit.Assert;
 import org.junit.Before;

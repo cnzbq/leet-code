@@ -1,10 +1,8 @@
-package cn.zbq.leet003.lengthoflongestsubstring;
+package cn.zbq.leet0003.lengthoflongestsubstring;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * 无重复字符的最长子串测试
