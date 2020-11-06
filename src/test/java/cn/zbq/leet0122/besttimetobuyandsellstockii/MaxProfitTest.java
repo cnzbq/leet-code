@@ -47,4 +47,10 @@ public class MaxProfitTest {
         int max = maxProfit.maxProfit(new int[]{1, 2, 10, 11, 12, 15});
         Assert.assertEquals(14, max);
     }
+
+    @Test
+    public void case6() {
+        int max = maxProfit.maxProfit2(new int[]{3, 3});
+        Assert.assertEquals(0, max);
+    }
 }

@@ -39,12 +39,12 @@ public class MaxProfit {
         int size = prices.length - 1;
         while (i < size) {
             // 寻找当天价格比明天低的点作为谷
-            while (i < size && prices[i] > prices[i + 1]) {
+            while (i < size && prices[i] >= prices[i + 1]) {
                 i++;
             }
             valley = prices[i];
             // 寻找当天价格高于明天的点作为峰
-            while (i < size && prices[i] < prices[i + 1]) {
+            while (i < size && prices[i] <= prices[i + 1]) {
                 i++;
             }
             // 计算峰与谷的差异
