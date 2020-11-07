@@ -9,5 +9,6 @@
 3. [3. 无重复字符的最长子串](src/main/java/cn/zbq/leet0003/lengthoflongestsubstring/README.md)✅
 121. [121. 买卖股票的最佳时机](src/main/java/cn/zbq/leet0121/besttimetobuyandsellstock/README.md)✅
 122. [122. 买卖股票的最佳时机 II](src/main/java/cn/zbq/leet0122/besttimetobuyandsellstockii/README.md)✅
+135. [135. 分发糖果](src/main/java/cn/zbq/leet0135/candy/README.md)✅
 406. [406. 根据身高重建队列](src/main/java/cn/zbq/leet0406/reconstructqueue/README.md)✅
 455. [455. 分发饼干](src/main/java/cn/zbq/leet0455/assigncookies/README.md)✅
