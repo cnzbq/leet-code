@@ -17,3 +17,4 @@
 406. [406. 根据身高重建队列](src/main/java/cn/zbq/leet0406/reconstructqueue/README.md)✅
 435. [435. 无重叠区间](src/main/java/cn/zbq/leet0435/nonoverlappingintervals/README.md)✅
 455. [455. 分发饼干](src/main/java/cn/zbq/leet0455/assigncookies/README.md)✅
+633. [633. 平方数之和](src/main/java/cn/zbq/leet0633/sumofsquarenumbers/README.md)✅
