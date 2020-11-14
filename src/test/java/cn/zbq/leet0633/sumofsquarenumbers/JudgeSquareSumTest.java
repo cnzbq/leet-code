@@ -1,7 +1,7 @@
 package cn.zbq.leet0633.sumofsquarenumbers;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * 633. 平方数之和测试
@@ -15,42 +15,42 @@ public class JudgeSquareSumTest {
     @Test
     public void case1() {
         boolean result = judgeSquareSum.judgeSquareSum(5);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
     public void case2() {
         boolean result = judgeSquareSum.judgeSquareSum(3);
-        Assert.assertFalse(result);
+        Assertions.assertFalse(result);
     }
 
     @Test
     public void case3() {
         boolean result = judgeSquareSum.judgeSquareSum(4);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
     public void case4() {
         boolean result = judgeSquareSum.judgeSquareSum(2);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
     public void case5() {
         boolean result = judgeSquareSum.judgeSquareSum(1);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
     public void case6() {
         boolean result = judgeSquareSum.judgeSquareSum(1000000);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 
     @Test
     public void case7() {
         boolean result = judgeSquareSum.judgeSquareSum(10);
-        Assert.assertTrue(result);
+        Assertions.assertTrue(result);
     }
 }

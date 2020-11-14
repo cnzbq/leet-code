@@ -1,7 +1,8 @@
 package cn.zbq.leet0076.minimumwindowsubstring;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * 76. 最小覆盖子串测试
@@ -15,18 +16,18 @@ public class MinWindowTest {
     @Test
     public void case1() {
         String result = minWindow.minWindow("ADOBECODEBANC", "ABC");
-        Assert.assertEquals("BANC", result);
+        Assertions.assertEquals("BANC", result);
     }
 
     @Test
     public void case2() {
         String result = minWindow.minWindow("a", "a");
-        Assert.assertEquals("a", result);
+        Assertions.assertEquals("a", result);
     }
 
     @Test
     public void case3() {
         String result = minWindow.minWindow("abcdadwq", "cdd");
-        Assert.assertEquals("cdad", result);
+        Assertions.assertEquals("cdad", result);
     }
 }

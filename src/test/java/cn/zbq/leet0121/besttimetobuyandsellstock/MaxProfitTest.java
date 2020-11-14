@@ -1,8 +1,9 @@
 package cn.zbq.leet0121.besttimetobuyandsellstock;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 /**
  * 121. 买卖股票的最佳时机测试
@@ -13,7 +14,7 @@ import org.junit.Test;
 public class MaxProfitTest {
     private MaxProfit maxProfit;
 
-    @Before
+    @BeforeAll
     public void before() {
         maxProfit = new MaxProfit();
     }
@@ -21,30 +22,30 @@ public class MaxProfitTest {
     @Test
     public void case1() {
         int result = maxProfit.maxProfit2(new int[]{7, 1, 5, 3, 6, 4});
-        Assert.assertEquals(5, result);
+        Assertions.assertEquals(5, result);
     }
 
     @Test
     public void case2() {
         int result = maxProfit.maxProfit2(new int[]{7, 6, 4, 3, 1});
-        Assert.assertEquals(0, result);
+        Assertions.assertEquals(0, result);
     }
 
     @Test
     public void case3() {
         int result = maxProfit.maxProfit2(new int[]{});
-        Assert.assertEquals(0, result);
+        Assertions.assertEquals(0, result);
     }
 
     @Test
     public void case4() {
         int result = maxProfit.maxProfit2(new int[]{1, 2});
-        Assert.assertEquals(1, result);
+        Assertions.assertEquals(1, result);
     }
 
     @Test
     public void case5() {
         int result = maxProfit.maxProfit2(new int[]{3, 3});
-        Assert.assertEquals(0, result);
+        Assertions.assertEquals(0, result);
     }
 }

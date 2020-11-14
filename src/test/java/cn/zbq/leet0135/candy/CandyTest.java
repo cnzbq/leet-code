@@ -1,9 +1,7 @@
 package cn.zbq.leet0135.candy;
 
-import org.junit.Assert;
-import org.junit.Test;
-
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * 135. 分发糖果
@@ -17,30 +15,30 @@ public class CandyTest {
     @Test
     public void case1() {
         int result = this.candy.candy(new int[]{1, 0, 2});
-        Assert.assertEquals(5, result);
+        Assertions.assertEquals(5, result);
     }
 
     @Test
     public void case2() {
         int result = this.candy.candy(new int[]{1, 2, 2});
-        Assert.assertEquals(4, result);
+        Assertions.assertEquals(4, result);
     }
 
     @Test
     public void case3() {
         int result = this.candy.candy(new int[]{1, 2, 87, 87, 87, 2, 1});
-        Assert.assertEquals(13, result);
+        Assertions.assertEquals(13, result);
     }
 
     @Test
     public void case4() {
         int result = this.candy.candy(new int[]{1, 3, 2, 2, 1});
-        Assert.assertEquals(7, result);
+        Assertions.assertEquals(7, result);
     }
 
     @Test
     public void case5() {
         int result = this.candy.candy(new int[]{3, 3, 3});
-        Assert.assertEquals(3, result);
+        Assertions.assertEquals(3, result);
     }
 }

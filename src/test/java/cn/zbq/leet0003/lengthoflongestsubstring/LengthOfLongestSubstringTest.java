@@ -1,8 +1,9 @@
 package cn.zbq.leet0003.lengthoflongestsubstring;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 /**
  * 无重复字符的最长子串测试
@@ -13,7 +14,7 @@ import org.junit.Test;
 public class LengthOfLongestSubstringTest {
     private LengthOfLongestSubstring lengthOfLongestSubstring;
 
-    @Before
+    @BeforeAll
     public void before() {
         this.lengthOfLongestSubstring = new LengthOfLongestSubstring();
     }
@@ -21,30 +22,30 @@ public class LengthOfLongestSubstringTest {
     @Test
     public void case1() {
         int result = lengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb");
-        Assert.assertEquals(3, result);
+        Assertions.assertEquals(3, result);
     }
 
     @Test
     public void case2() {
         int result = lengthOfLongestSubstring.lengthOfLongestSubstring("bbbbb");
-        Assert.assertEquals(1, result);
+        Assertions.assertEquals(1, result);
     }
 
     @Test
     public void case3() {
         int result = lengthOfLongestSubstring.lengthOfLongestSubstring("pwwkew");
-        Assert.assertEquals(3, result);
+        Assertions.assertEquals(3, result);
     }
 
     @Test
     public void case4() {
         int result = lengthOfLongestSubstring.lengthOfLongestSubstring("");
-        Assert.assertEquals(0, result);
+        Assertions.assertEquals(0, result);
     }
 
     @Test
     public void case5() {
         int result = lengthOfLongestSubstring.lengthOfLongestSubstring("abba");
-        Assert.assertEquals(2, result);
+        Assertions.assertEquals(2, result);
     }
 }

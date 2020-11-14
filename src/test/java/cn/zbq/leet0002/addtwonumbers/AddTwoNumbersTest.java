@@ -1,8 +1,8 @@
 package cn.zbq.leet0002.addtwonumbers;
 
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 public class AddTwoNumbersTest {
     private AddTwoNumbers addTwoNumbers;
 
-    @Before
+    @BeforeAll
     public void before() {
         addTwoNumbers = new AddTwoNumbers();
     }
@@ -25,7 +25,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{}, toArr(listNode));
     }
 
     @Test
@@ -33,7 +33,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{1});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{1});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{2}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{2}, toArr(listNode));
     }
 
     @Test
@@ -41,7 +41,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{1, 2, 3, 4});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{1, 2, 3, 4});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{2, 4, 6, 8}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{2, 4, 6, 8}, toArr(listNode));
     }
 
     @Test
@@ -49,7 +49,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{1, 2, 3, 4, 5});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{1, 2, 3, 4, 5});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{2, 4, 6, 8, 0, 1}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{2, 4, 6, 8, 0, 1}, toArr(listNode));
     }
 
     @Test
@@ -57,7 +57,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{1});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{9, 9, 9, 9, 9});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{0, 0, 0, 0, 0, 1}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{0, 0, 0, 0, 0, 1}, toArr(listNode));
     }
 
     @Test
@@ -65,7 +65,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{9, 9, 9, 9, 9});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{1});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{0, 0, 0, 0, 0, 1}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{0, 0, 0, 0, 0, 1}, toArr(listNode));
     }
 
     @Test
@@ -73,7 +73,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{2, 4, 3});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{5, 6, 4});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{7, 0, 8}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{7, 0, 8}, toArr(listNode));
     }
 
     @Test
@@ -81,7 +81,7 @@ public class AddTwoNumbersTest {
         AddTwoNumbers.ListNode listNode1 = build(new int[]{1, 8, 3});
         AddTwoNumbers.ListNode listNode2 = build(new int[]{7, 1});
         AddTwoNumbers.ListNode listNode = addTwoNumbers.addTwoNumbers(listNode1, listNode2);
-        Assert.assertArrayEquals(new int[]{8, 9, 3}, toArr(listNode));
+        Assertions.assertArrayEquals(new int[]{8, 9, 3}, toArr(listNode));
     }
 
     private AddTwoNumbers.ListNode build(int[] arr) {

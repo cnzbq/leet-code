@@ -1,7 +1,8 @@
 package cn.zbq.leet0435.nonoverlappingintervals;
 
-import org.junit.Assert;
-import org.junit.Test;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * 435. 无重叠区间测试
@@ -15,18 +16,18 @@ public class EraseOverlapIntervalsTest {
     @Test
     public void case1() {
         int result = eraseOverlapIntervals.eraseOverlapIntervals(new int[][]{{1, 2}, {2, 3}, {3, 4}, {1, 3}});
-        Assert.assertEquals(1, result);
+        Assertions.assertEquals(1, result);
     }
 
     @Test
     public void case2() {
         int result = eraseOverlapIntervals.eraseOverlapIntervals(new int[][]{{1, 2}, {1, 2}, {1, 2}});
-        Assert.assertEquals(2, result);
+        Assertions.assertEquals(2, result);
     }
 
     @Test
     public void case3() {
         int result = eraseOverlapIntervals.eraseOverlapIntervals(new int[][]{{1, 2}, {2, 3}});
-        Assert.assertEquals(0, result);
+        Assertions.assertEquals(0, result);
     }
 }

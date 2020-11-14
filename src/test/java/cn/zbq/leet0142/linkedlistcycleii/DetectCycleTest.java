@@ -1,9 +1,8 @@
 package cn.zbq.leet0142.linkedlistcycleii;
 
-import org.junit.Assert;
-import org.junit.Test;
 
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * 142. 环形链表 II
@@ -17,25 +16,25 @@ public class DetectCycleTest {
     @Test
     public void case1() {
         DetectCycle.ListNode result = detectCycle.detectCycle(build(new int[]{3, 2, 0, -4}, 1));
-        Assert.assertEquals(2, result.val);
+        Assertions.assertEquals(2, result.val);
     }
 
     @Test
     public void case2() {
         DetectCycle.ListNode result = detectCycle.detectCycle(build(new int[]{1, 2}, 0));
-        Assert.assertEquals(1, result.val);
+        Assertions.assertEquals(1, result.val);
     }
 
     @Test
     public void case3() {
         DetectCycle.ListNode result = detectCycle.detectCycle(build(new int[]{1}, -1));
-        Assert.assertNull(result);
+        Assertions.assertNull(result);
     }
 
     @Test
     public void case4() {
         DetectCycle.ListNode result = detectCycle.detectCycle(build(new int[]{1, 2}, -1));
-        Assert.assertNull(result);
+        Assertions.assertNull(result);
     }
 
     private DetectCycle.ListNode build(int[] arr, int pos) {

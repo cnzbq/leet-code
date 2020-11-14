@@ -1,7 +1,7 @@
 package cn.zbq.leet0455.assigncookies;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
 
 /**
  * 455. 分发饼干测试
@@ -15,12 +15,12 @@ public class FindContentChildrenTest {
     @Test
     public void case1() {
         int result = findContentChildren.findContentChildren2(new int[]{1, 2, 3}, new int[]{1, 1});
-        Assert.assertEquals(1, result);
+        Assertions.assertEquals(1, result);
     }
 
     @Test
     public void case2() {
         int result = findContentChildren.findContentChildren2(new int[]{1, 2}, new int[]{1, 2, 3});
-        Assert.assertEquals(2, result);
+        Assertions.assertEquals(2, result);
     }
 }
