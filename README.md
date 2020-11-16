@@ -7,6 +7,7 @@
 1. [1. 两数之和](src/main/java/cn/zbq/leet0001/twosum/README.md) ✅
 2. [2. 两数相加](src/main/java/cn/zbq/leet0002/addtwonumbers/README.md)✅
 3. [3. 无重复字符的最长子串](src/main/java/cn/zbq/leet0003/lengthoflongestsubstring/README.md)✅
+69. [69. x 的平方根](src/main/java/cn/zbq/leet0069/sqrtx/README.md)✅
 76. [76. 最小覆盖子串](src/main/java/cn/zbq/leet0076/minimumwindowsubstring/README.md)✅
 88. [88. 合并两个有序数组](src/main/java/cn/zbq/leet0088/mergesortedarray/README.md)✅
 121. [121. 买卖股票的最佳时机](src/main/java/cn/zbq/leet0121/besttimetobuyandsellstock/README.md)✅
