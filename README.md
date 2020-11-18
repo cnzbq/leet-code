@@ -10,6 +10,7 @@
 34. [34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/cn/zbq/_0034/find_first_and_last_position_of_element_in_sorted_array/README.md)✅
 69. [69. x 的平方根](src/main/java/cn/zbq/_0069/sqrtx/README.md)✅
 76. [76. 最小覆盖子串](src/main/java/cn/zbq/_0076/minimum_window_substring/README.md)✅
+81. [81. 搜索旋转排序数组 II](src/main/java/cn/zbq/_0081/search_in_rotated_sorted_array_ii/README.md)✅
 88. [88. 合并两个有序数组](src/main/java/cn/zbq/_0088/merge_sorted_array/README.md)✅
 121. [121. 买卖股票的最佳时机](src/main/java/cn/zbq/_0121/best_time_to_buy_and_sell_stock/README.md)✅
 122. [122. 买卖股票的最佳时机 II](src/main/java/cn/zbq/_0122/best_time_to_buy_and_sell_stock_ii/README.md)✅
