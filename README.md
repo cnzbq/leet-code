@@ -7,6 +7,7 @@
 1. [1. 两数之和](src/main/java/cn/zbq/_0001/two_sum/README.md) ✅
 2. [2. 两数相加](src/main/java/cn/zbq/_0002/add_two_numbers/README.md)✅
 3. [3. 无重复字符的最长子串](src/main/java/cn/zbq/_0003/longest_substring_without_repeating_characters/README.md)✅
+34. [34. 在排序数组中查找元素的第一个和最后一个位置](src/main/java/cn/zbq/_0034/find_first_and_last_position_of_element_in_sorted_array/README.md)✅
 69. [69. x 的平方根](src/main/java/cn/zbq/_0069/sqrtx/README.md)✅
 76. [76. 最小覆盖子串](src/main/java/cn/zbq/_0076/minimum_window_substring/README.md)✅
 88. [88. 合并两个有序数组](src/main/java/cn/zbq/_0088/merge_sorted_array/README.md)✅
