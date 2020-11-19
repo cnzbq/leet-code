@@ -16,6 +16,7 @@
 122. [122. 买卖股票的最佳时机 II](src/main/java/cn/zbq/_0122/best_time_to_buy_and_sell_stock_ii/README.md)✅
 135. [135. 分发糖果](src/main/java/cn/zbq/_0135/candy/README.md)✅
 142. [142. 环形链表 II](src/main/java/cn/zbq/_0142/linked_list_cycle_ii/README.md)✅
+154. [154. 寻找旋转排序数组中的最小值 II](src/main/java/cn/zbq/_0154/find_minimum_in_rotated_sorted_array_ii/README.md)✅
 167. [167. 两数之和 II - 输入有序数组](src/main/java/cn/zbq/_0167/two_sum_ii_input_array_is_sorted/README.md)✅
 406. [406. 根据身高重建队列](src/main/java/cn/zbq/_0406/queue_reconstruction_by_height/README.md)✅
 435. [435. 无重叠区间](src/main/java/cn/zbq/_0435/non_overlapping_intervals/README.md)✅
