@@ -22,5 +22,6 @@
 435. [435. 无重叠区间](src/main/java/cn/zbq/_0435/non_overlapping_intervals/README.md)✅
 455. [455. 分发饼干](src/main/java/cn/zbq/_0455/assign_cookies/README.md)✅
 524. [524. 通过删除字母匹配到字典里最长单词](src/main/java/cn/zbq/_0524/longest_word_in_dictionary_through_deleting/README.md)✅
+540. [540. 有序数组中的单一元素](src/main/java/cn/zbq/_0540/single_element_in_a_sorted_array/README.md)✅
 633. [633. 平方数之和](src/main/java/cn/zbq/_0633/sum_of_square_numbers/README.md)✅
 680. [680. 验证回文字符串 Ⅱ](src/main/java/cn/zbq/_0680/valid_palindrome_ii/README.md)✅
